@@ -47,7 +47,10 @@ header p {
 }
 header {
   text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
 }
+
 
 nav {
   margin-top: 1rem;
