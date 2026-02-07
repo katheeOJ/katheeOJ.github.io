@@ -36,6 +36,21 @@ footer {
 }
 
 /* ===== Header ===== */
+header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+  font-size: 2rem;
+}
+
+header p {
+  margin-top: 0;
+  color: var(--text-muted);
+}
 header h1 {
   margin-bottom: 0.25rem;
   font-size: 2rem;
