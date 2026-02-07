@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kathee Ogea | Portfolio</title>
+    <meta name="description" content="Calm, human-centered front-end web design. Portfolio and projects by Kathee Ogea." />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Kathee Ogea</h1>
+      <p>Front-End Web Design · Calm, Human-Centered</p>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I build simple, calm websites that are easy to use and easy to maintain. My background in
+          teaching, art, and technology shapes how I design—clear, thoughtful, and human-first.
+        </p>
+        <p>
+          I enjoy creating digital spaces that feel grounded, accessible, and welcoming. I'm currently
+          focused on strengthening my front-end skills through consistent daily practice.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML &amp; semantic structure</li>
+          <li>CSS (layouts, spacing, responsive design)</li>
+          <li>Basic JavaScript (interactions, DOM)</li>
+          <li>Accessible, readable UI styling</li>
+          <li>Design sense: hierarchy, typography, clarity</li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+          <h3>Personal Landing Page</h3>
+          <p>
+            A clean, responsive one-page site built with HTML and CSS, focused on clarity, spacing,
+            and calm visual hierarchy.
+          </p>
+          <ul>
+            <li><a href="#" aria-label="View the live site (add your link)">Live site</a></li>
+            <li><a href="#" aria-label="View the code on GitHub (add your link)">Code</a></li>
+          </ul>
+        </article>
+
+        <!-- Duplicate this <article> block for future projects -->
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:yourname@example.com">yourname@example.com</a>
+        </p>
+        <p>
+          GitHub: <a href="#" aria-label="Your GitHub profile (add your link)">Add link</a>
+          &nbsp;|&nbsp;
+          LinkedIn: <a href="#" aria-label="Your LinkedIn profile (add your link)">Add link</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built by me · <span id="year"></span></p>
+    </footer>
+
+    <script>
+      // Tiny JS: keep the year current
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
